@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:seipday1/day22/homepage22.dart';
+import 'package:seipday1/day40/home_page.dart';
 import 'package:seipday1/exam/first_ui.dart';
 import 'package:seipday1/exampage/first_ui.dart';
 import 'package:seipday1/home_page.dart';
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePageExam(),
+      home: HomePage40(),
     );
   }
 }
